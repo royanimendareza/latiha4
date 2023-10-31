@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>belajar form</title>
+</head>
+<body>
+<form action="" method="post">
+<textarea name="komentar" cols="7" rows="100">isi text</textarea>
+<br>
+<input type="text" name="nama_text" value="" autocomplete="off" required placeholder="isi textnya">
+<input type="color">
+<input type="datetime-local">
+<input type="number">
+<input type="week">
+<input type="date">
+<input type="email" required>
+<input type="range">
+<input type="time">
+<input type="month">
+<input type="search">
+<input type="url">
+<input type="password">
+<input type="file" accept=".jpg.png">
+<!-- readonly disabled -->
+
+<br>
+hobi
+<input type="checkbox" name="hobi" >makan
+<input type="checkbox" name="hobi" >nonton
+<input type="checkbox" name="hobi" >main
+<br>
+jenis kelamin
+<input type="radio" name="jk" value="LK">laki laki
+<input type="radio" name="jk" value="PR">gadis
+<input type="radio" name="jk" value="HS">hunsta
+<br>
+progrm studi
+<select name="prodi" >
+    <option value="01">SI</option>
+    <option value="02">TI</option>
+    <option value="03">TEKNOSI</option>
+    <option >ilkom</option>
+    <option >ip</option>
+</select>
+<br>
+<fieldset>
+    <legend>log in</legend>
+    <label for="username">username</label>
+    <input type="text" placeholder="masukan username" name="username" id="username">
+    <label for="password">password</label>
+    <input type="password" placeholder="masukan password" name="password" id="password">
+    <button type="submit">login</button>
+</fieldset>
+<br>
+<button value="submit">submit</button>
+<button type="reset">reset</button>
+<button type="button"><button></button></button>
+
+</body>
+</html>
